@@ -42,7 +42,7 @@ class ArticlesController < ApplicationController
   def edit
 
   end
-  
+
   private
   def article_params
     params.require(:article).permit(:title, :description)
